@@ -77,17 +77,3 @@ def predict(data: LoanApp):
         'threshold': ml_model['threshold'],
         'result': 'High Risk' if prediction == 1 else 'Low Risk',
     }
-
-{
-  "person_age": 24,
-  "person_income": 22000,
-  "person_home_ownership": "RENT",
-  "person_emp_length": 1,
-  "loan_intent": "DEBTCONSOLIDATION",
-  "loan_grade": "F",
-  "loan_amnt": 18000,
-  "loan_int_rate": 20.5,
-  "loan_percent_income": 0.82,
-  "cb_person_default_on_file": "Y",
-  "cb_person_cred_hist_length": 3
-}
